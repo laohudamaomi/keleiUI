@@ -1,0 +1,193 @@
+	.kelei_main {
+		width: auto;
+		height: 750px;
+		position: relative;
+		border: 1px solid #96c2f1;
+		background: #eff7ff;
+		border-radius: 5px;
+	}
+	
+	.kelei_top {
+		width: 99%;
+		height: 15%;
+		z-index: 996;
+		top: 0.5%;
+		left: 0.5%;
+		right: 0.5%;
+		position: relative;
+		border: 1px solid #9bdf70;
+		background: #f0fbeb;
+		border-radius: 5px;
+	}
+	
+	.kelei_left {
+		width: 24%;
+		height: 72%;
+		left: 0.5%;
+		top: 1%;
+		float: left;
+		position: relative;
+		border: 1px solid #bbe1f1;
+		background: #f0fbeb;
+		border-radius: 5px;
+	}
+	
+	.kelei_center {
+		width: 59%;
+		height: 72%;
+		top: 1%;
+		left: 25%;
+		position: relative;
+		border: 1px solid #cceff5;
+		background:#f0fbeb;
+		border-radius: 5px;
+	}
+	
+	.kelei_right {
+		width: 15%;
+		height: 72%;
+		top: 1%;
+		right: 0.5%;
+		position: relative;
+		float: right;
+		border: 1px solid #cceff5;
+		background: #f0fbeb;
+		border-radius: 5px;
+	}
+	
+	.kelei_down {
+		z-index: 99;
+		position: absolute;
+		bottom: 0;
+		right: 0.5%;
+		left: 0.5%;
+		top: 89%;
+		width: 99%;
+		height: 10%;
+		border: 1px solid #cee3e9;
+		background: #f0fbeb;
+		border-radius: 5px;
+	}
+	
+	.menu {
+		position:relative;
+		top: 46%;
+		left: 30%;
+		width: 80%;
+		height: 40%;
+		/*去除内联元素间隙*/
+		font-size: 0;
+		/*去掉ul自带的.格式*/
+		list-style: none;
+		padding: 0;
+	}
+	
+	.menu li {
+		/*将元素转换为行内块元素*/
+		display: inline-block;
+		width: 98px;
+		height: 48px;
+		border: 1px solid burlywood;
+		font-size: 16px;
+		/*将边框合并*/
+		margin-right: -1px;
+		text-align: center;
+		line-height: 48px;
+	}
+	
+	.menu a {
+		font-family: "Microsoft YaHei UI";
+		color:#A9A9A9;
+		/*去掉a元素的下划线*/
+		text-decoration: none;
+	}
+	/*鼠标位于元素位置时改变元素样式*/
+	
+	.menu li:hover {
+		background-color:burlywood;
+	}
+	
+	.menu a:hover {
+		color: #fff;
+	}
+	
+	.kelei_menu_row1 {
+		position: relative;
+		top: 5%;
+		left: 10%;
+		width: 80%;
+	}
+	
+	.kelei_menu_row2 {
+		position: relative;
+		top: 10%;
+		left: 10%;
+		width: 80%;
+	}
+	
+	.kelei_menu_row3 {
+		position: relative;
+		top: 15%;
+		left: 10%;
+		width: 80%;
+	}
+	
+	.kelei_menu_row4 {
+		position: relative;
+		top: 20%;
+		left: 10%;
+		width: 80%;
+	}
+	
+	
+	.kelei_menu_name {
+		width: 80%;
+		height: 10%;
+		text-align: center;
+		line-height: 50px;
+		background:darkkhaki;
+		font-size: 20px;
+	}
+	
+	.kelei_menu_value {
+		width: 80%;
+		height: 10%;
+		display: none;
+		background: none;
+	}
+	
+	.kelei_menu_name:hover {
+		background:darkkhaki;
+		cursor: pointer;
+	}
+	
+	.kelei_menu_row1:hover .kelei_menu_value {
+		display: block;
+	}
+	.kelei_menu_row2:hover .kelei_menu_value {
+		display: block;
+	}
+	.kelei_menu_row3:hover .kelei_menu_value {
+		display: block;
+	}
+	.kelei_menu_row4:hover .kelei_menu_value {
+		display: block;
+	}
+	
+	.kelei_menu_value a {
+		/* 子菜单属性设置*/
+		display: block;
+		text-decoration: none;
+		height: 40px;
+		text-align: center;
+		line-height: 40px;
+		/*子菜单字体颜色*/
+		color:dimgray;
+	}
+	
+	.kelei_menu_value a:hover {
+		/*子菜单点击后属性设置*/
+		background:darkgrey;
+		color: black;
+	}
+	
